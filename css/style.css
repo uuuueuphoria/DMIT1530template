@@ -1,0 +1,53 @@
+html{
+  font-family:arial, sans-serif;
+}
+header{
+  background-color:#0046be;
+  color:white;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+header > ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:48px;
+}
+header ul{
+  list-style: none;
+  padding-left: 0;
+  margin:0;
+}
+header a{
+  text-decoration: none;
+  color: white;
+}
+header>ul li{
+  padding-left: 16px;
+}
+header >div:not(.dk-blue){
+  display: flex;
+  justify-content: space-between;
+  height:48px;
+  align-items: center;
+}
+
+header >div:not(.dk-blue) ul:last-child{
+  flex-basis: 240px;
+  justify-content: space-between;
+}
+
+.container ul{
+  display: flex;
+}
+
+nav ul li{
+  padding-right: 16px;
+}
+
+.dk-blue{
+  background-color: #003da6;
+  line-height: 48px;
+}
